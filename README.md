@@ -1,24 +1,44 @@
-# README
+# Blog-App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Creating a data model
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby On Rails
 
-* System dependencies
+## Getting Started
 
-* Configuration
+- If you dont have Ruby installed on your computer, you can download it from here.
+- Clone the project in your machine
+- To Start the programs
 
-* Database creation
+```ruby main.rb```
 
-* Database initialization
 
-* How to run the test suite
+## Author
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 **Onomeh Onwuanibe**
 
-* Deployment instructions
+- GitHub: [@githubhandle](https://github.com/Estherstarr/)
+- Twitter: [@twitterhandle](https://twitter.com/AnibeEsther)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/onwuanibeonome)
 
-* ...
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
