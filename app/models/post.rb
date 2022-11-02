@@ -7,7 +7,7 @@ class Post < ApplicationRecord
   validates :title, length: { maximum: 250 } 
   validates :comments_counter, numericality: { greater_than_or_equal_to: 0 } 
   validates :likes_counter, numericality: { greater_than_or_equal_to: 0 }
-  
+
   after_save :update_post_counter
   after_destroy :update_post_counter
 
@@ -16,6 +16,6 @@ class Post < ApplicationRecord
   end
 
   def update_post_counter
-    user.update(posts_counter: user.posts.count)
+    author.update(posts_counter: author.posts.count)
   end
 end
