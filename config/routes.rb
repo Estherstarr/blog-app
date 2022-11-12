@@ -6,8 +6,10 @@ Rails.application.routes.draw do
   root 'users#index'
 
   resources :users, only: [:index, :show] do
-    resources :posts, only: [:index, :show]
+        resources :posts, only: [:index, :show, :new, :create] do
+      resources :comments, only: [:create]
+      resources :likes, only: [:create]
+    end
   end
-  
-  get "/login", to: "sessions#new"
+  # get "/login", to: "sessions#new"
 end
